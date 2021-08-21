@@ -30,9 +30,9 @@ h3 {
 }
 
 p {
+  display: block;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
 }
 
 img {
@@ -105,4 +105,19 @@ img {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  #images {
+    display: none;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  p {
+    display: center;
+  }
+  a {
+    display: center;
+  }
 }
